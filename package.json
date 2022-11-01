@@ -1,12 +1,11 @@
 {
   "name": "nest-api-avanade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "git": "git add --all && git commit -m\"Deploy\" && git push -u origin main && echo \"Deployed\" ",
     "migrate:create": "typeorm migration:create",
     "migrate:run": "npm run typeorm migration:run -- -d ./ormconfig.ts",
     "typeorm": "typeorm-ts-node-esm",
